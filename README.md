@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/84986194/189019350-cb63636a-c8e9-451c-92a9-7dd9cfdb0e00.png)
 
-# Link de repositorios
+# Link de sincronicos
 
 Grupo 1, aulas: 9,10,11 y 12 LUNES 20:00 HS en: Teams Grupo 1                                                                                                           
 Grupo 2, aulas: 5,6,7 y 8 JUEVES 21:00 HS en: Teams Grupo 2                                                                                                           
