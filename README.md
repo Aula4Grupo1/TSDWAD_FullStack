@@ -31,6 +31,10 @@
 
 Revista con log in , cuenta regresiva de eventos , la cual se podrá dividir en secciones. Los usuarios podrán solicitar recibir notificaciones de algún evento especifico o noticias que le interesen. También contendrá videos 
 
+### REQUERIMIENTOS MINIMOS del proyecto
+![image](https://user-images.githubusercontent.com/84986194/190917768-3c378381-91f9-4dd2-b449-c44fb0710df2.png)
+
+
 # Estado del proyecto
 
 :construction: Proyecto en construcción :construction:
