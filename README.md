@@ -39,6 +39,11 @@ Revista con log in , cuenta regresiva de eventos , la cual se podrá dividir en 
 
  https://github.com/Aula4Grupo1/TSDWAD_FullStack
  
+ <em> 📁Documentacion:  Propuesta, Estandar iee , otros                                                            
+      📁dev:            Carpeta de desarrollo                                                                           
+      📁public:         Carpeta de la appWeb final                                                      
+</em>
+
 # Tecnologias Utilizadas
 * html, css, js, wordpress, bootstrap, python
 
