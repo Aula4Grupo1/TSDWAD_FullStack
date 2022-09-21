@@ -32,7 +32,10 @@
 Revista con log in , cuenta regresiva de eventos , la cual se podrá dividir en secciones. Los usuarios podrán solicitar recibir notificaciones de algún evento especifico o noticias que le interesen. También contendrá videos 
 
 ### REQUERIMIENTOS MINIMOS del proyecto
-![image](https://user-images.githubusercontent.com/84986194/190917768-3c378381-91f9-4dd2-b449-c44fb0710df2.png)
+Se pretende para el final de la cursada lograr: 
+* Generar un Sitio web institucional <strong>inicio</strong> con presentacion de Propuesta a desarrollar, Seccion <strong>Quienes Somos</strong> (presentacion del equipo) y formulario de contacto con los conocimientos que se vayan adquiriendo en Sistemas de Gestion de Contenidos. (en español e ingles).
+* Aplicacion web especifica del proyecto aprobado FRONTEND con HTML y CSS, un formulario de registro y login. Dashboard para el BACKEND.
+* Se les solicitara un proyecto aplicando todos los contenidos dados en los modulos de la cursada (Wordpress, HTML5, CSS3, BOOTSTRAP, JAVASCRIPT, POO con PYTHON) ,segun los contenidos brindados desde la plataforma para extraer recursos necesarios. 
 
 
 # Estado del proyecto
