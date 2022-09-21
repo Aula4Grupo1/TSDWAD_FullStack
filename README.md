@@ -53,5 +53,6 @@ Se pretende para el final de la cursada lograr:
 
 # Tecnologias Utilizadas
 * html, css, js, wordpress, bootstrap, python
+* SCRUM, Ux, Ui, AGILE
 
 
