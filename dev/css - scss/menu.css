@@ -12,3 +12,7 @@
     justify-content: center;
     margin-top: 2rem;
 }
+
+.carousel-item img {
+    max-height: 700px;
+  }
