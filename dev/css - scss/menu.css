@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+#btn_login{
+    margin-right: 5rem;
+}
+
+#carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
