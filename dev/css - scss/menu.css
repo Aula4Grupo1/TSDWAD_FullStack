@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Inicio estilos para el carrusel*/
 #btn_login{
     margin-right: 5rem;
 }
@@ -14,5 +15,23 @@
 }
 
 .carousel-item img {
-    max-height: 700px;
-  }
+    height: 70rem;
+    width: 40rem;
+}
+
+/* Fin estilos para el carrusel*/
+
+/* Inicio estilos para el main*/
+
+#central{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    width: 81.5%;
+}
+
+/* Fin estilos para el main*/
