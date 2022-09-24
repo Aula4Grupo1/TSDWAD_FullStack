@@ -15,7 +15,7 @@
 }
 
 .carousel-item img {
-    height: 70rem;
+    height: 50rem;
     width: 40rem;
 }
 
@@ -23,15 +23,110 @@
 
 /* Inicio estilos para el main*/
 
-#central{
-    background-color: darkgray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 2rem;
-    width: 81.5%;
+.secciones{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    width: 70%;
 }
 
+/*Las secciones se dividen en 3 y se utiliza flexbox para posicionar*/
+#seccion1, #seccion2, #seccion3{
+    display: flex;
+    flex-direction: row;
+    background-color: gray
+}
+
+/*El tamaño de las imagenes de las secciones es de 30 rem con margen de 2 rem*/
+#sec1_img img{
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+#sec2_img img{
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+#sec3_img img{
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
+    margin-top: 4rem;
+}
+
+/*El parrafo de las secciones va con display block para que se mantengan uno encima del otro y color de fondo distinto al del contenedor*/
+#sec1_p, #sec2_p, #sec3_p {
+    display: block;
+    background-color: lightgray;
+    margin: 2rem;
+}
+
+/*Los titulos van centrados y con margen*/
+#sec1_p h1, h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#sec2_p h1, h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#sec3_p h1, h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#sec1_p p{
+    margin: 1rem;
+    align-items: center;
+    font-size: small;
+}
+
+#sec2_p p{
+    margin: 1rem;
+    align-items: center;
+    font-size: small;
+}
+
+#sec3_p p{
+    margin: 1rem;
+    align-items: center;
+    font-size: small;
+}
+
+/*Estilos para el aside*/
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    background-color: gray;
+}
+
+#aside1 img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#aside2 img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#aside3 img{
+    width: 10rem;
+    height: 10rem;
+}
 /* Fin estilos para el main*/
+
