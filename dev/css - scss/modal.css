@@ -1,0 +1,178 @@
+
+/*Boton login */
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background-color:#4e4cbd;
+	border-radius:110px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial, Helvetica, sans-serif ;
+	font-size:12px;
+	font-weight:none;
+	font-style:Arial;
+	padding:9px 76px;
+	text-decoration:none;
+	margin-left: 50px;
+	top:100px;
+	margin-top: 20px;
+	padding-left: 100px ;
+	padding-right: 100px ;
+}
+
+
+.myButton:hover {
+	background-color:#161492;
+    color: #ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*Boton Login*/
+#mybuttonlogin{
+
+	padding-left: 110px !important;
+	padding-right: 110px !important;
+}
+/* Boton crear cuenta*/
+#mybuttoncuenta{
+
+	margin-top: 60px;
+	padding-left:100px ;
+	padding-right: 90px;
+	background-color: rgb(241, 28, 28);
+	border-color: transparent !important;
+	text-align: center;
+}
+#mybuttoncuenta:hover{
+	background-color: rgb(197, 0, 0);
+}
+
+
+.modal-fade{
+	
+	max-width: 100%;
+}
+.modal-title{
+	position: relative;
+	left: 100px;
+	
+}
+ /* Tamaño del modal*/
+.modal,.modal-dialog, .modal-content{
+		filter: drop-shadow(0px 0px 7px  rgba(0, 0, 0, 0.3));
+		height: 90%;
+	  	width:80%;
+		left: 7%;
+		
+		
+	  }
+.modal-header, .modal-footer {height:20%;}
+.modal-body {height:80%;padding-left: 25px;padding-right: 30px;margin-top: 20px;}
+
+textarea:focus, input:focus, input[type]:focus {
+	
+    border-color: rgb(216, 27, 13);
+    
+    box-shadow: none !important;
+    
+    outline: 0 none;
+}
+ /* Bordes de los input del modal */
+
+.form-control{
+    border-radius: .1rem !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+	
+	;
+}
+
+ /* Icono de usuario y candado*/
+
+.fa-user {
+	position: absolute;
+	top:40%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	color:rgb(31, 14, 185);
+	
+}
+.fa-lock{
+	position: absolute;
+	top:40%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	color: rgb(31, 14, 185);
+}
+
+/*Remember me*/
+
+.form-check{
+	margin-top: 4%;
+	font-size: 14px;
+}
+
+.my-label{
+	font-size: 15px;
+	margin-left: 5%;
+
+	
+}
+ /* Icono de google y facebook*/
+ .fa-brands ,.fa-google{
+	font-size: 2.5em;
+	color:red;
+	position: absolute;
+	left: 20px;
+	bottom: 40px;
+	left: 140px;
+}
+.fa-facebook{
+	left: 200px;
+	color: blue;
+	
+}
+/*olvide contraseña*/
+#olvicontra{
+
+	position: absolute;
+	left: 120px;
+	margin-top: 15px;
+
+}
+#ingresacon {
+
+	position: absolute;
+	margin-top :80px;
+	left: 120px;
+}
+/*Texto crear cuenta o iniciiar sesion....*/
+#texenterate{
+
+	position:absolute;
+	margin-top: 100px;
+	color: rgb(73, 73, 77);
+}
+
+
+
+/*---------------------MODAL 2 ---------------------*/
+
+#volverbutton{
+
+	padding-left: 110px !important;
+	padding-right: 110px !important;
+}
+#repcontra{
+	margin-top:20px;
+}
+#creatu{
+	position:absolute;
+	margin-top: 80px;
+	color: rgb(73, 73, 77);
+}
