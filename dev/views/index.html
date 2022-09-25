@@ -1,103 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css - scss/menu.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css - scss/menu.css">
+  <title>Revista de Noticias y Actualidad</title>
 </head>
+
 <body>
-    
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg bg-light" id="nav">
-        <div class="container">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    <a class="nav-link" href="#">News</a>
-                    <a class="nav-link" href="#">Contacto</a>
-                    <a class="nav-link" href="#">Deportes</a>
-                    <a class="nav-link" href="#">Politica</a>
-                    <a class="nav-link" href="#">Espectaculos</a>
-                </div>
-            </div>
-        </div>
-        <!-- Button trigger modal -->
-            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn_login">
-                Login
-            </button>
-  
-        <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Registrese</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Understood</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    </nav>
-    <!--Fin Barra de navegación-->
 
-    <section id="carrusel">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!--Barra de navegación-->
+  <nav class="navbar navbar-expand-lg bg-light" id="nav">
+    <div class="container">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#">News</a>
+          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#">Deportes</a>
+          <a class="nav-link" href="#">Politica</a>
+          <a class="nav-link" href="#">Espectaculos</a>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../assets/img/noti.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/noticias.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../assets/img/noticiasUH.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </section>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn_login">
+      Login
+    </button>
 
-    <article>
-        <!--Contenido que puede ser independiente y reusable puede ir dentro 
-        de la etiqueta section o viceversa-->
-    </article>
-    
-    <aside>
-        <!--barra lateral , publicidad, etc-->
-    </aside>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Registrese</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Fin Barra de navegación-->
+
+  <hr> <!--Linea de separación provisoria, luego implementar estilo correcto con css -->
+
+  <!--Crear Header, donde se colocaran las noticias el dia. Ejemplo:  Noticia1  Noticia2  Noticia3  Noticia4 Noticia5 en forma contigua -->
+  <header class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Noticia1</h5>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae obcaecati natus, quis
+               voluptates ab nemo.</p>
+            <a href="#" class="btn btn-primary">Ir a Noticia1</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Noticia2</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, aut sapiente? 
+              Qui blanditiis quam voluptatum.</p>
+            <a href="#" class="btn btn-primary">Ir a Noticia2</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Noticia3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, harum numquam. 
+              Impedit est perferendis quas.</p>
+            <a href="#" class="btn btn-primary">Ir a Noticia3</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Noticia4</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quas culpa obcaecati 
+              in debitis ipsa!</p>
+            <a href="#" class="btn btn-primary">Ir a Noticia4</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Fin Header-->
+
+  <!-- Inicio del Header   ** Se comenta esta parte, revisar como integrar con el header anterior**
+
+  <section id="carrusel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/img/noti.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/noticias.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/img/noticiasUH.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+            -->   
+  <!--Fin del Header-->
+
+  <main id="main">
+    <div id="sec_noti">
+      <section>
+        <div class="secciones">
+          <div id="seccion1">
+            <div id="sec1_img">
+              <img src="../assets/img/news.png">
+            </div>
+            <div id="sec1_p">
+              <h1>Lado Norte</h1>
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="secciones">
+          <div id="seccion2">
+            <div id="sec2_img">
+              <img src="../assets/img/news.png">
+            </div>
+            <div id="sec2_p">
+              <h1>Lado Norte</h1>
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="secciones">
+          <div id="seccion3">
+            <div id="sec3_img">
+              <img src="../assets/img/news.png">
+            </div>
+            <div id="sec3_p">
+              <h1>Lado Norte</h1>
+              <h5>Lorem, ipsum dolor.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit obcaecati ut beatae harum, tempore
+                eveniet molestias officiis voluptates tempora consequuntur quae iste reprehenderit? Neque delectus
+                maiores iste alias impedit modi tenetur cum, molestiae porro sequi adipisci, nesciunt id eius harum,
+                iure fuga. Fugit provident quaerat deserunt molestiae consequuntur vero!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--barra lateral , publicidad, etc-->
+    <div id="sec_aside">
+      <aside>
+        <div class="aside">
+          <div id="aside1">
+            <h5>Temas de interes</h5>
+            <img src="../assets/img/news_1.jpg">
+          </div>
+          <div id="aside2">
+            <h5>Temas de interes</h5>
+            <img src="../assets/img/news_1.jpg">
+          </div>
+          <div id="aside3">
+            <h5>Temas de interes</h5>
+            <img src="../assets/img/news_1.jpg">
+          </div>
+          <div id="aside4">
+            <h5>Temas de interes</h5>
+            <img src="../assets/img/news_1.jpg">
+          </div>
+          <div id="aside5">
+            <h5>Temas de interes</h5>
+            <img src="../assets/img/news_1.jpg">
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+  </main>
 
 
-    <footer>
-        <!--Pie de página-->
-    </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <footer>
+    <!--Pie de página-->
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
