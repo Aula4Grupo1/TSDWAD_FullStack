@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../css - scss/menu.css">
+  <link rel="stylesheet" type="text/css" href="../css - scss/modal.css">
   <title>Revista de Noticias y Actualidad</title>
 </head>
 
@@ -17,48 +18,93 @@
   <!--Barra de navegación-->
   <nav class="navbar navbar-expand-lg bg-light" id="nav">
     <div class="container">
-      <a class="navbar-brand" href="#">LOGO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link" href="#">News</a>
-          <a class="nav-link" href="#">Contacto</a>
-          <a class="nav-link" href="#">Deportes</a>
-          <a class="nav-link" href="#">Politica</a>
-          <a class="nav-link" href="#">Espectaculos</a>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" href="#">News</a>
+                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#">Deportes</a>
+                <a class="nav-link" href="#">Politica</a>
+                <a class="nav-link" href="#">Espectaculos</a>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn_login">
-      Login
-    </button>
+    
+    <!-- Modal LOG IN --> <!-- Modal LOG IN --> <!-- Modal LOG IN -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-      aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered "id="mymodal ">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Registrese</h5>
+            
+            <h3 class="">Enterate de todo!</h3>
+              <h5 class="texente" id="texenterate">Crea tu cuenta o inicia sesión</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="form-floating mb-3">
+              
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" >
+              <i class="fa-regular fa-user"></i>
+              <label class="my-label" for="floatingInput">Ingresá tu usuario o e-mail</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <i class="fa-solid fa-lock"></i>
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+              <label class="form-check-label" for="flexCheckIndeterminate">
+                Remember me
+              </label>
+            </div>
+            <a href="#" class="myButton" id="mybuttonlogin">Log In</a>
+            <a href=""><p id="olvicontra">Olvidé mi contraseña</p></a>
+            <a data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" href="#" class="myButton" id="mybuttoncuenta">Crear cuenta</a>
+            <a href=""><p id="ingresacon">Prefiero ingresar con:</p></a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Understood</button>
+          <a href=""><i class="fa-brands fa-google"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal 2 Log In--------- Modal 2-->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 id="creatu" >Crea tu cuenta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Ingresa tu mail o un usuario</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <div id="repcontra"class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Repetir contraseña</label>
+            </div>
+            <a href="#" class="myButton" id="mybuttonlogin">Crear</a>
+            <a data-bs-target="#exampleModalToggle" data-bs-toggle="modal" href="#" class="myButton" id="mybuttoncuenta">Volver atrás</a>
           </div>
         </div>
       </div>
     </div>
-  </nav>
-  <!--Fin Barra de navegación-->
+    <a id="btn Acceder" class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Acceder</a>
+</nav>
+ <!--FIN Modal 1 y 2 -->
+<!--Fin Barra de navegación-->
 
   <hr> <!--Linea de separación provisoria, luego implementar estilo correcto con css -->
 
@@ -266,6 +312,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
+    <!-- linkeado para poder utilizar iconos fontawesome -->
+    <script src="https://kit.fontawesome.com/fb42cdeb52.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
