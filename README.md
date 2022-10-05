@@ -29,7 +29,9 @@
 
 # Descripcion del proyecto
 
-Revista con log in , cuenta regresiva de eventos , la cual se podrá dividir en secciones. Los usuarios podrán solicitar recibir notificaciones de algún evento especifico o noticias que le interesen. También contendrá videos 
+Revista con log in , cuenta regresiva de eventos , la cual se podrá dividir en secciones. Los usuarios podrán solicitar recibir notificaciones de algún evento especifico o noticias que le interesen. También contendrá videos. Los nombres propuestos para la revista son Lana100; DevNews; MagazineMiss. 
+
+El nombre elegido es: <strong>DevNews</strong> 
 
 ### REQUERIMIENTOS MINIMOS del proyecto
 Se pretende para el final de la cursada lograr: 
