@@ -20,7 +20,7 @@
 * Rocio Avila  
 * Cristian Gonzalo Vera
 * Emmanuel Lucas Villafranca
-* Ivan Didier Meier
+* Ivan Didier Meier.
 * Axel Esteban Bazan
 * Mayra Moises
 * Emiliano Edgardo Blanco
