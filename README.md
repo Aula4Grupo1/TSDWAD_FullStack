@@ -22,7 +22,7 @@
 * Emmanuel Lucas Villafranca
 * Ivan Didier Meier.
 * Axel Esteban Bazan
-* Mayra Moises
+* Mayra Moises Vega
 * Emiliano Edgardo Blanco
 
 # Descripcion del proyecto
