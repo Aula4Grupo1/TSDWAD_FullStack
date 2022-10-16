@@ -62,6 +62,7 @@ Se pretende para el final de la cursada lograr:
 * Ui: "Diseño de la interfaz"
 * AGILE
 * KANBAN
+* MVC 
 
 ### Frontend 
 * Estructura HTML, semántica y estilos CSS
