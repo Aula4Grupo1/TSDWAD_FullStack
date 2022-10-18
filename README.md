@@ -81,10 +81,9 @@ Se pretende para el final de la cursada lograr:
  
  <em> 📁Documentacion:  Propuesta, Estandar iee , otros                                                            
       📁dev:            Carpeta de desarrollo        
- <em>       📁 Modelo  </em>                                                                                                   
- <em>       📁 Vista   </em>                                                                                                           
- <em>       📁 Controlador   </em>                                                                                               
-            </em>                                                                                                                         
+|_____      📁 Modelo                                                              
+|_____      📁 Vista                                               
+|_____      📁 Controlador                                                                                                                                    
       📁public:         Carpeta de la appWeb final                                                      
 </em>
 
