@@ -80,7 +80,11 @@ Se pretende para el final de la cursada lograr:
  https://github.com/Aula4Grupo1/TSDWAD_FullStack
  
  <em> 📁Documentacion:  Propuesta, Estandar iee , otros                                                            
-      📁dev:            Carpeta de desarrollo                                                                           
+      📁dev:            Carpeta de desarrollo        
+            <em>📁 Modelo
+                📁 Vista
+                📁 Controlador
+            </em>
       📁public:         Carpeta de la appWeb final                                                      
 </em>
 
