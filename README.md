@@ -42,6 +42,10 @@ Se pretende para el final de la cursada lograr:
 
 :construction: Proyecto en construcción :construction:
 
+## Mapa del Proyecto
+![image](https://user-images.githubusercontent.com/84986194/196570742-01353afe-9247-45ee-9c07-8bebbed06f75.png)
+ 
+
 ## <strong>REQUERIMIENTOS ACTUALES SPRINT 1</strong>
 
 ### Documentar tecnologias utilizadas con un video y resumen en la wiki, de: 
