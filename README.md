@@ -88,7 +88,7 @@ Se pretende para el final de la cursada lograr:
 
  https://github.com/Aula4Grupo1/TSDWAD_FullStack
  
- <em> 📁Documentacion:  Propuesta, Estandar iee , otros                                                            
+ <em> 📁Documentacion:  Propuesta, Estandar iee , mapa, otros                                                            
       📁dev:            Carpeta de desarrollo        
 |_____      📁 Modelo                                                              
 |_____      📁 Vista                                               
@@ -98,6 +98,6 @@ Se pretende para el final de la cursada lograr:
 
 # Tecnologias Utilizadas
 * html, css, js, wordpress, bootstrap, python
-* SCRUM, Ux, Ui, AGILE
+* SCRUM, Ux, Ui, AGILE, MVC
 
 
