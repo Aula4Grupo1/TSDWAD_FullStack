@@ -45,6 +45,9 @@ Se pretende para el final de la cursada lograr:
 ## Mapa del Proyecto
  <p> El proyecto consta de una pagina principal, con un menu de navegacion (news, espectaculo, deporte, politica), ademas del login user y admin, un nav con las principales noticias del momento y un main de lo mas importante, tambien un aside lateral con noticias sociales y de interes general, por ultimo un footer con los contactos en redes.</p> 
  
+![image](https://user-images.githubusercontent.com/84986194/196574731-9ff3a995-6389-4774-b87c-8d3b4c5d682a.png)
+
+ 
 ![image](https://user-images.githubusercontent.com/84986194/196571574-78ff1085-8f0a-49be-9a75-4f1f358846d7.png)
  
 
