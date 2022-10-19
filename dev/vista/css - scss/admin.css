@@ -1,0 +1,117 @@
+:root {
+    --primary: #111854;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.bg-primary { background-color: var(--primary) !important ;}
+
+#sidebar-container{
+    min-height: 100vh;
+
+}
+.icon{
+    margin-right: 10px;
+}
+a:hover{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+#sidebar-container .logo {
+    padding: .875rem 1.25rem; 
+}
+#sidebar-container .menu {
+        width: 18rem; 
+}
+
+h4{
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+#btnbuscar{
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+}
+#formbuscador{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+form{
+    position: relative;
+}
+#imguser{
+    background-color: red;
+}
+.imagenuser{
+    max-width: 25px;
+    border: 50px;
+    margin-right: 5px;
+}
+#content1{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+.bienvenido2{
+    font-weight: bold;
+}
+.card{
+    display: inline-block !important  ;
+    position: relative;
+    top: 100px;
+    margin-left: 30px;
+    height: 150px;
+   width: 250px !important;
+   $box-shadow:  .5rem 1rem rgba($black, .15);
+   
+   
+    
+    
+}
+.card-text{
+    font-weight: bold;
+    text-align: center;
+}
+.card-linea-1{
+    margin-bottom: 10px;
+}
+
+.ion-md-create {
+    display: flex;
+    position: relative;
+    font-size: 35px !important;
+    font-weight: 25px !important;
+    left: 100px;
+    color: green;
+}
+.ion-md-trash {
+    display: flex;
+    position: relative;
+    font-size: 35px !important;
+    font-weight: 25px !important;
+    left: 100px;
+    color: rgb(218, 77, 22);
+}
+.ion-md-copy{
+    display: flex;
+    position: relative;
+    font-size: 35px !important;
+    font-weight: 25px !important;
+    left: 100px;
+    color: green;
+    
+}
+
