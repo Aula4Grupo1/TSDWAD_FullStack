@@ -43,7 +43,9 @@ Se pretende para el final de la cursada lograr:
 :construction: Proyecto en construcción :construction:
 
 ## Mapa del Proyecto
-![image](https://user-images.githubusercontent.com/84986194/196570742-01353afe-9247-45ee-9c07-8bebbed06f75.png)
+ <p> El proyecto consta de una pagina principal, con un menu de navegacion (news, espectaculo, deporte, politica), ademas del login user y admin, un nav con las principales noticias del momento y un main de lo mas importante, tambien un aside lateral con noticias sociales y de interes general, por ultimo un footer con los contactos en redes.</p> 
+ 
+![image](https://user-images.githubusercontent.com/84986194/196571574-78ff1085-8f0a-49be-9a75-4f1f358846d7.png)
  
 
 ## <strong>REQUERIMIENTOS ACTUALES SPRINT 1</strong>
